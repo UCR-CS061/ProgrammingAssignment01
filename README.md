@@ -43,7 +43,7 @@ R3 <-- 12 * 6; (i.e. multiply 12 by 6 and write the result into Register 3)
 ```
 using the equivalent of a DO-WHILE loop:
 
-![Code for Programming Assignment 1](/ProgrammingAssignment1/assets/assn1_code.png)
+![Code for Programming Assignment 1](./assets/assn1_code.png)
 
 **Remember:** Replace the instruction that zeros out R3 with the AND technique you learned in lab 1!
 
@@ -60,6 +60,6 @@ Note that there is no autograding for this assignment - you will be notified whe
 
 ### Comics??!Sweet!!!
 
-![XKCD Comic](/ProgrammingAssignment1/assets/xkcd.png)
+![XKCD Comic](./assets/xkcd.png)
  
 Source: [https://xkcd.com/](https://xkcd.com/)
