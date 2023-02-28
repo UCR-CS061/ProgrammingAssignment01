@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-RUN apt update && apt install -y git wget openjdk-11-jre
+RUN apt update && apt install -y git wget unzip openjdk-11-jre
 
 ENV VNC_RESOLUTION="1920x1200x16" \
     VNC_DPI="96"
