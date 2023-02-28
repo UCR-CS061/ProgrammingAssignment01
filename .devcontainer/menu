@@ -1,5 +1,6 @@
 [begin] (  Application Menu  )
     [exec] (LC3 Tools) { /usr/local/lc3tools/lc3tools } <>
+    [exec] (Digital) { /usr/local/Digital/Digital.sh } <>
     [exec] (File Manager) { nautilus ~ } <>
     [exec] (Text Editor) { mousepad } <>
     [exec] (Terminal) { tilix -w ~ -e $(readlink -f /proc/$$/exe) -il } <>
