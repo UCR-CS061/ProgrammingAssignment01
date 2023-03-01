@@ -18,7 +18,7 @@ COPY Digital.sh /usr/local/Digital
 RUN mkdir /cs061
 RUN git clone https://github.com/ucrdrk/LC3_realized.git
 RUN mv LC3_realized /cs061
-RUN get clone https://github.com/ucrdrk/cs061-digital-examples.git
+RUN git clone https://github.com/ucrdrk/cs061-digital-examples.git
 RUN mv cs061-digital-examples /cs061
 
 COPY menu /root/.fluxbox/menu
