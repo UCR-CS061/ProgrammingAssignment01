@@ -13,6 +13,6 @@ RUN mv squashfs-root /usr/local/lc3tools
 RUN wget https://github.com/hneemann/Digital/releases/latest/download/Digital.zip
 RUN unzip Digital.zip
 RUN mv Digital /usr/local/Digital
-RUN export JAVA_TOOL_OPTIONS="$JAVA_TOOL_OPTIONS -Dsun.java2d.xrender=false"
+COPY Digital.sh /usr/local/Digital
 
 COPY menu /root/.fluxbox/menu
