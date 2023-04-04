@@ -5,7 +5,7 @@ RUN apt update && apt install -y git wget unzip git openjdk-11-jre
 ENV VNC_RESOLUTION="1920x1200x16" \
     VNC_DPI="96"
 
-RUN wget https://github.com/ucrdrk/lc3tools/releases/download/v2.0.1.cs061/LC3Tools-2.0.2.AppImage
+RUN wget https://github.com/chiragsakhuja/lc3tools/releases/download/v2.0.2/LC3Tools-2.0.2.AppImage
 RUN chmod a+x LC3Tools-2.0.2.AppImage
 RUN ./LC3Tools-2.0.2.AppImage --appimage-extract
 RUN mv squashfs-root /usr/local/lc3tools
