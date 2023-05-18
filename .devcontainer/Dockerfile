@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-RUN apt update && apt install -y git wget unzip git openjdk-11-jre
+RUN apt update && apt install -y git wget unzip git openjdk-11-jre iverilog
 
 ENV VNC_RESOLUTION="1920x1200x16" \
     VNC_DPI="96"
