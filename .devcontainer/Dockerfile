@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:jammy
 
 RUN apt update && apt install -y git wget unzip git openjdk-11-jre iverilog
 
