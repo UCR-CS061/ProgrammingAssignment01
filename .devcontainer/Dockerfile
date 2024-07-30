@@ -1,4 +1,4 @@
-FROM ubuntu:jammy
+FROM mcr.microsoft.com/devcontainers/base:ubuntu
 
 RUN apt update && apt install -y git wget unzip git openjdk-11-jre iverilog
 
